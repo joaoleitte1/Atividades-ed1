@@ -7,12 +7,8 @@ int main()
 	
 	float n;
 	int v[6];
-	int c1=0;
-	int c2=0;
-	int c3=0;
-	int c4=0;
-	int c5=0;
-	int c6=0;
+	int c1=0,c2=0,c3=0,c4=0,c5=0,c6=0;
+	
 	
 	srand(time(NULL));
 	
