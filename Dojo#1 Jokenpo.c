@@ -17,20 +17,19 @@ void jokenpo(){
 
         scanf(" %c", &jogada);
         
-
         jogadacpu = 1+rand()%3;
 
         switch (jogada){
-        case '@':
-            opcao = 1;
+            case '@':
+                opcao = 1;
             break;
 
-        case '#':
-            opcao = 2;
+            case '#':
+                opcao = 2;
             break;
 
-        case '%':
-            opcao = 3;
+            case '%':
+                opcao = 3;
             break;
 
     default:
@@ -71,28 +70,10 @@ void jokenpo(){
         else printf("empate: anulada\n");
        }
        
-
-       
         printf("pontuacao usuario: %d pontuacao CPU: %d\n",ptsuser,ptscpu);
     }
-    
-
-
 }
 int main(){
-    
     jokenpo();
-    
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
