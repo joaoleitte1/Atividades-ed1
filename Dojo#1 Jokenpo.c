@@ -67,9 +67,9 @@ void jokenpo(){
        if (opcao == 3 && jogadacpu == 2) {
         printf("USUARIO: %% cpu: # = VOCE VENCEU!\n");
         ptsuser++;
-        else printf("empate: anulada\n");
        }
-       
+       else printf("empate: anulada\n");
+        
         printf("pontuacao usuario: %d pontuacao CPU: %d\n",ptsuser,ptscpu);
     }
 }
